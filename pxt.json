@@ -1,6 +1,6 @@
 {
     "name": "list-helpers",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Helper functions for working with arrays/lists",
     "dependencies": {
         "device": "*"
