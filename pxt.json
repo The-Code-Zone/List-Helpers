@@ -7,7 +7,9 @@
     },
     "files": [
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py",
+        "ListHelpers.ts"
     ],
     "testFiles": [
         "test.ts"
