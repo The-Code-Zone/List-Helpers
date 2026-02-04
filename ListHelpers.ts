@@ -1,7 +1,7 @@
 /**
  * Helper functions for working with arrays and lists
  */
-//% weight=100 color=#00a4a6 icon="\uf03a"
+//% weight=1 color=#00a4a6 icon="\uf03a" advanced=true
 namespace listHelpers {
     /**
      * Randomly sample items from an array without replacement (like Python's random.sample)
