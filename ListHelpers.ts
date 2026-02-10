@@ -13,7 +13,7 @@ namespace listHelpers {
     //% block="sample %count items from %array"
     //% count.defl=3
     //% weight=100
-    export function sample<T>(array: T[], count: number): T[] {
+    export function sample(array: any[], count: number): any[] {
         if (count > array.length) {
             count = array.length;
         }
@@ -22,7 +22,7 @@ namespace listHelpers {
             return [];
         }
 
-        let result: T[] = [];
+        let result: any[] = [];
         let available = array.slice(); // Create a copy
 
         for (let i = 0; i < count; i++) {
@@ -43,7 +43,7 @@ namespace listHelpers {
     //% blockId=list_helpers_includes
     //% block="%array contains %item"
     //% weight=90
-    export function includes<T>(array: T[], item: T): boolean {
+    export function includes(array: any[], item: any): boolean {
         for (let i = 0; i < array.length; i++) {
             if (array[i] === item) {
                 return true;
@@ -62,7 +62,7 @@ namespace listHelpers {
     //% blockId=list_helpers_remove
     //% block="remove %item from %array"
     //% weight=80
-    export function remove<T>(array: T[], item: T): boolean {
+    export function remove(array: any[], item: any): boolean {
         for (let i = 0; i < array.length; i++) {
             if (array[i] === item) {
                 array.splice(i, 1);
